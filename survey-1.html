@@ -19,17 +19,39 @@
         <div><label for="lname"> Last Name:
             <input id= lname type="text">
         </label></div>
+        <div>
+            <label for="phone" id="phone" type="text" aria-placeholder="(123)-456-7890">Phone Number:</label>
+        </div>
        
         <div><label for="email"> Email:
-            <input id= email type="email">
+            <input id= email type="email" required>
         </label></div>
 
         <div>
-            <label for="cars"> Choose a Car
-
+            <label for="cars"> Choose a Car:
+                <select name="Auto" id="cars">
+                    <option value="Volvo">Volvo</option>
+                    <option value="Chevy">Chevy</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Rich">Mercedes</option>
+                </select>
             </label>
         </div>
 
+        <div>
+            <label for="Female">
+                <input type="radio" name="gender" id="Female"> Female
+                <input type="radio" name="gender" id="Male"> Male
+                <input type="radio" name="gender" id="non-binary"> Non-Binary
+            </label>
+        </div>
+        <div>
+            <label for="Running"> What activity do you like to do?
+                <input type="checkbox" name="activities" id="running"> Running 
+                <input type="checkbox" name="activities" id="Biking"> Biking
+                <input type="checkbox" name="activities" id="Hiking"> Hking
+            </label>
+        </div>
     </fieldset>
    </form>
    <p>
